@@ -18,7 +18,7 @@ class Arrays1Test {
 }
 
     @Test
-    void sortArray() {Arrays1 arr=new Arrays1();
+    void sortArray() {
    Arrays1 arr2=new Arrays1();
         int [] unsorted={1,8,3,5,4};
         assertTimeout(Duration.ofMillis(10),()->arr2.sortArray(unsorted));
